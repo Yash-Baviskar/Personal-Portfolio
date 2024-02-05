@@ -1,0 +1,435 @@
+@media screen and (max-width: 1400px) {
+  #profile {
+    height: 83vh;
+    margin-bottom: 6rem;
+  }
+ 
+  .about-containers {
+    flex-wrap: wrap;
+  }
+
+  #contact,
+  #projects {
+    height: fit-content;
+  }
+  #experience::before{
+    position: absolute;
+    content: '';
+    height: 450px;
+    width: 450px;
+    border-radius: 50%;
+    right: -12%;
+    top: 40%;
+    background: linear-gradient(45deg, #7f00ff,pink);
+    animation: object2 8s linear infinite;
+  }
+  
+  #experience::after{
+    position: absolute;
+    content: '';
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    left: 35%;
+    top: 12%;
+    background: linear-gradient(45deg, #7f00ff,pink);
+    animation: object2 8s linear infinite; 
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #desktop-nav {
+    display: none;
+  }
+  #hamburger-nav {
+    display: flex;
+  }
+
+  #experience,
+  .experience-details-container {
+    margin-top: 2rem;
+  }
+
+  #experience::before{
+    position: absolute;
+    content: '';
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    right: -12%;
+    top: 40%;
+    background: linear-gradient(45deg, #7f00ff,pink);
+    animation: object2 8s linear infinite;
+  }
+  
+  #experience::after{
+    position: absolute;
+    content: '';
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    left: 35%;
+    top: 12%;
+    background: linear-gradient(45deg, #7f00ff,pink);
+    animation: object2 8s linear infinite; 
+  }
+  
+
+  #profile,
+  .section-container {
+    display: flex;
+    z-index: 5;
+  }
+  #profile .section__pic-container{
+    position: relative;
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+  #profile .section__pic-container{
+    margin-left: 5rem;
+  }
+  #profile .section__pic-container .main-img{
+    position: relative;
+    height: 350px;
+    width: 350px;
+    margin: auto 0;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+  #about .section__pic-container .about-pic{
+    position: relative;
+    height: 350px;
+    width: 350px;
+    margin: auto 0;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+  .arrow {
+    display: none;
+  }
+  section,
+  .section-container {
+    height: fit-content;
+    z-index: 5;
+  }
+  section {
+    margin: 0 5%;
+    z-index: 5;
+  }
+  .section__pic-container {
+    width: 275px;
+    height: 275px;
+    margin: 0 auto 2rem;
+    z-index: 5;
+  }
+  .about-containers {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width:1000px) {
+  #profile,
+  .section-container {
+    display: flex;
+    z-index: 5;
+  }
+  #profile .section__pic-container{
+    position: relative;
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+  #profile .section__pic-container .main-img{
+    position: relative;
+    height: 300px;
+    width: 300px;
+    margin: auto 0;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+  .arrow {
+    display: none;
+  }
+  #about .section__pic-container .about-pic{
+    position: relative;
+      height: 300px;
+      width: 300px;
+      margin: auto 0;
+      overflow: hidden;
+      border-radius: 50%;
+    }
+    #experience{
+      height: 80vh;
+    }
+#experience::before{
+  position: absolute;
+  content: '';
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  right: -12%;
+  top: 40%;
+  background: linear-gradient(45deg, #7f00ff,pink);
+  animation: object2 8s linear infinite;
+}
+
+#experience::after{
+  position: absolute;
+  content: '';
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  left: 35%;
+  top: 12%;
+  background: linear-gradient(45deg, #7f00ff,pink);
+  animation: object2 8s linear infinite; 
+}
+
+  #projects::before{
+    position: absolute;
+    content: '';
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    left: -12%;
+    top: 40%;
+    background: linear-gradient(45deg, #7f00ff,pink);
+    animation: object3 9s linear infinite;
+  }
+  
+  #projects::after{
+    position: absolute;
+    content: '';
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    right: 35%;
+    top: 12%;
+    background: linear-gradient(45deg, #7f00ff,pink);
+    animation: object3 9s linear infinite; 
+  }
+}
+
+
+@media screen and (max-width: 800px) {
+  
+  #project{
+    height: 100vh;
+  }
+  .title {
+    font-size: 2rem;
+    padding: 1rem;
+  }
+  .text-container {
+    text-align: justify;
+    font-size: 1.2rem;
+    margin: 1.5rem;
+  }#contact,
+  footer {
+    height: 40vh;
+  }
+  #experience{
+    height: 100vh;
+  }
+  #experience::before{
+    position: absolute;
+    content: '';
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    right: -12%;
+    top: 40%;
+    background: linear-gradient(45deg, #7f00ff,pink);
+    animation: object2 8s linear infinite;
+  }
+  #profile {
+    height: 83vh;
+    margin-bottom: 0;
+    z-index: 5;
+  }
+  #profile,
+  .section-container {
+    display: flex;
+    flex-direction: column-reverse;
+    z-index: 5;
+  }
+  #profile .section__pic-container{
+    margin: 0.2rem;
+    margin-left: 9rem;
+  }
+  #profile .section__pic-container .main-img{
+    position: relative;
+    height: 300px;
+    width: 300px;
+    margin: auto 0;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+  #profile::before{
+    display: none;
+  }
+  #profile::after{
+    display: none;
+  }
+  #about{
+    height: 120vh;
+  }
+  #about .section-container {
+    display: flex;
+    flex-direction: column;
+    z-index: 5;
+  }
+  #about .section__pic-container .about-pic{
+    position: relative;
+    height: 300px;
+    width: 300px;
+    margin: auto 0;
+    overflow: hidden;
+    border-radius: 50%;
+  }  
+
+  article {
+    font-size: 1rem;
+  }
+  footer nav {
+    height: fit-content;
+    margin-bottom: 2rem;
+  }
+  .about-containers,
+  .contact-info-upper-container,
+  .btn-container {
+    flex-wrap: wrap;
+  }
+  .contact-info-container {
+    margin: 0;
+  }
+  .experience-details-container{
+    margin: 0;
+  }
+  .contact-info-container p,
+  .nav-links li a {
+    font-size: 1rem;
+  }
+  .experience-sub-title {
+    font-size: 1.25rem;
+  }
+  .logo {
+    font-size: 1.5rem;
+  }
+  .nav-links {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+  .section__pic-container {
+    width: auto;
+    height: 46vw;
+    justify-content: center;
+    z-index: 5;
+  }
+  .section__text__p2 {
+    font-size: 1.25rem;
+    z-index: 5;
+  }
+  .title {
+    font-size: 2rem;
+  }
+  .text-container {
+    text-align: justify;
+  }
+  #profile .section__pic-container{
+    margin: 0.2rem;
+    margin-left: 8rem;
+  }
+}
+
+@media screen and (max-width: 600px){
+  #profile {
+    height: 80vh;
+    margin-bottom: 0;
+    z-index: 5;
+  }
+  #profile,
+  .section-container {
+    display: flex;
+    flex-direction: column-reverse;
+    z-index: 5;
+  }
+  #profile .section__pic-container{
+    margin: 0.2rem;
+    margin-left: 4rem;
+  }
+  #profile .section__pic-container .main-img{
+    position: relative;
+    height: 250px;
+    width: 250px;
+    margin: auto 0;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+  #about{
+    height: 100vh;
+  }
+  #about .section-container {
+    display: flex;
+    flex-direction: column;
+    z-index: 5;
+  }
+  #about .section__pic-container .about-pic{
+    position: relative;
+    height: 250px;
+    width: 250px;
+    margin: auto 0;
+    overflow: hidden;
+    border-radius: 50%;
+  }  
+
+}
+@media screen and (max-width: 500px){
+  #profile .section__pic-container{
+    margin: 0.2rem;
+    margin-left: -1rem;
+  }
+  #profile .section__pic-container .main-img{
+    position: relative;
+    height: 200px;
+    width: 200px;
+    margin: auto 0;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+   #about{
+    height: 100vh;
+  }
+  #experience{
+    height: 150vh;
+  }
+  #experience::before{
+    position: absolute;
+    content: '';
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    right: -12%;
+    top: 40%;
+    background: linear-gradient(45deg, #7f00ff,pink);
+    animation: object2 8s linear infinite;
+  }
+  #project{
+    height: 150vh;
+  }
+  .title {
+    font-size: 2rem;
+    padding: 1rem;
+  }
+  .text-container {
+    text-align: justify;
+    font-size: 1.2rem;
+    margin: 1.5rem;
+  }
+}
