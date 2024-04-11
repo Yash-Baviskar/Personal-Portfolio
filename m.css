@@ -82,7 +82,7 @@
   }
   #profile .section__pic-container{
     position: relative;
-    height: 400px;
+    height: 370px;
     width: 400px;
     margin: auto 0;
     overflow: hidden;
@@ -93,7 +93,7 @@
   }
   #profile .section__pic-container .main-img{
     position: relative;
-    height: 350px;
+    height: 320px;
     width: 350px;
     margin: auto 0;
     overflow: hidden;
