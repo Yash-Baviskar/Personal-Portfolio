@@ -114,6 +114,7 @@ a:hover {
 }
 
 .menu-links {
+ z-index: 6;
   position: absolute;
   top: 100%;
   right: 0;
@@ -122,6 +123,12 @@ a:hover {
   max-height: 0;
   overflow: hidden;
   transition: all 0.3 ease-in-out;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem ;
+  border-color: rgb(163, 163, 163)
 }
 
 .menu-links a {
