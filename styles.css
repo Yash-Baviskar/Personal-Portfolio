@@ -114,7 +114,7 @@ a:hover {
 }
 
 .menu-links {
- z-index: 6;
+  z-index: 6;
   position: absolute;
   top: 100%;
   right: 0;
@@ -139,6 +139,7 @@ a:hover {
   color: var(--text-color);
   text-decoration: none;
   transition: all 0.3 ease-in-out;
+ 
 }
 
 .menu-links li {
@@ -194,7 +195,7 @@ section {
   display: flex;
   justify-content: center;
   gap: 5rem;
-  height: 75vh;
+  height: 80vh;
 
 }
 
@@ -243,8 +244,8 @@ h2{
 
 .section__pic-container img{
   position: relative;
-  height: 380px;
-  width: 530px;
+  height: 400px;
+  width: 450px;
   margin: auto 0;
   overflow: hidden;
   border-radius: 50%;
@@ -366,8 +367,10 @@ i:hover{
 }
 
 .btn-color-1:hover {
-  background:var(--primary-colour);
+ 
   color:#f3f3f8;
+  background: #7f00ff;
+  box-shadow: 0 0 5px #7f00ff, 0 0 25px #7f00ff, 0 0 50px #7f00ff, 0 0 200px #7f00ff;
 }
 
 .btn-color-2 {
@@ -376,11 +379,18 @@ i:hover{
 }
 
 .btn-color-2:hover {
-  border: rgb(255, 255, 255) 0.1rem solid;
+  border: none;
+  background: #7f00ff;
+  box-shadow: 0 0 5px #7f00ff, 0 0 25px #7f00ff, 0 0 50px #7f00ff, 0 0 200px #7f00ff;
 }
 
 .btn-container {
   gap: 1rem;
+}
+
+button:hover{
+  background: #7f00ff;
+  box-shadow: 0 0 5px #7f00ff, 0 0 25px #7f00ff, 0 0 50px #7f00ff, 0 0 200px #7f00ff;
 }
 
 /* ABOUT SECTION */
@@ -422,6 +432,10 @@ i:hover{
 .about-details-container {
   justify-content: center;
   flex-direction: column;
+}
+
+.about-containers,
+.about-details-container {
   display: flex;
   z-index: 5;
   background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
@@ -429,19 +443,17 @@ i:hover{
   -webkit-backdrop-filter: blur(10px);
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
-  border-color: rgb(163, 163, 163)
-}
-
-
-.icon arrow{
-  position: absolute;
-  right: -5rem;
-  bottom: 2.5rem;
+  border-color: rgb(163, 163, 163);
 }
 
 .details-container {
   padding: 1.5rem;
   flex: 1;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   text-align: center;
 }
